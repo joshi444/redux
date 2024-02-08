@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    height: 100vh;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+    /* cross-axis */
+    justify-content: space-evenly;
+    background-image: url(https://wallpapercave.com/wp/wp2649231.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:hover {
+  
+    background-color: blue;
+}
